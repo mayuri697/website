@@ -1,0 +1,249 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js">
+    <link rel="icon" href="Images/Illustrations/logo-no-background-final.png" height="20px" width="20px">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<style>
+    .unordered
+  {
+    /* border: 1px solid white; */
+    width: 60%;
+  }
+
+  .booksection
+  {
+    background-color: pink;
+  }
+
+  .bteaxt
+  {
+    font-size: 12px;
+    font-family: serif;
+  }
+
+  .waviy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+    margin: 0 auto;
+    font-family: serif;
+}
+.waviy {
+  position: relative;
+}
+.waviy span {
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  color: black;
+  font-family: serif;
+  text-transform: uppercase;
+  animation: flip 2s infinite;
+  animation-delay: calc(.1s * var(--i))
+}
+@keyframes flip {
+  0%,80% {
+    transform: rotateY(360deg) 
+  }
+}
+  
+
+.books{
+  width: 90%;
+  margin: 0 auto;
+  color: white;
+  font-family: serif;
+  font-size: 14px;
+}
+
+.devotionalbooks
+{
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* .madhugandha
+{
+  width: 90%;
+  margin: 0 auto;
+} */
+
+
+  @media only screen and (min-width: 768px)
+  {
+    .list
+  {
+    height: 40px;
+    width: 25%;
+    text-decoration: none;
+    padding-top: 10px;
+  }
+  .anchor
+  {
+    color: white;
+  }
+  .books{
+    font-size: 20px;
+  }
+}
+</style>
+<body>
+    
+
+    <div class="nav">
+        <div class="subnav row justify-content-between justify-content-around">
+            <div class="logo col-6 align-self-center"></div>
+
+
+            <ul class="row col-md-6 unordered d-none d-md-flex">
+                <li class="list-unstyled list"><a href="Index.html" class="anchor">Home</a></li>
+                <li class="list-unstyled list"><a href="Biography.html" class="anchor">BioGraphy</a></li>
+                <li class="list-unstyled list"><a href="Songs.html" class="anchor">Songs</a></li>
+                <li class="list-unstyled list"><a href="Musical Programs.html" class="anchor">Programs</a></li>
+                <li class="list-unstyled list"><a href="Interviews.html" class="anchor">Interviews</a></li>
+                <li class="list-unstyled list"><a href="Awards.html" class="anchor">Awards</a></li>
+                <li class="list-unstyled list"><a href="Books.html" class="anchor">Books</a></li>
+                <li class="list-unstyled list"><a href="Contact.html" class="anchor">Contact</a></li>
+              </ul>
+
+
+ <div class="col-6 align-self-center">
+    <div class="text-end d-md-none">
+        <button class="btn btn-secondary fs-6 b1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop" height="30px" width="30px">
+          Know more
+        </button>
+   </div>
+
+    <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title welcome fw-bolder" id="offcanvasTopLabel">WELCOME !!!</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+                  <!-- <div class="offcanvas-body"> -->
+     <ul class="row lh-lg">
+     <li class="col-4 list-unstyled list"><a href="Index.html" class="anchor">Home</a></li>
+      <li class="col-4 list-unstyled list"><a href="Biography.html" class="anchor">BioGraphy</a></li>
+     <li class="col-4 list-unstyled list"><a href="Songs.html" class="anchor">Songs</a></li>
+    <li class="col-4 list-unstyled list"><a href="Musical Programs.html" class="anchor">Programs</a></li>
+    <li class="col-4 list-unstyled list"><a href="Interviews.html" class="anchor">Interviews</a></li>
+    <li class="col-4 list-unstyled list"><a href="Awards.html" class="anchor">Awards</a></li>
+     <li class="col-4 list-unstyled list"><a href="Books.html" class="anchor">Books</a></li>
+    <li class="col-4 list-unstyled list"><a href="Contact.html" class="anchor">Contact</a></li>
+     </ul>
+ </div>
+</div>
+</div>
+</div>
+
+
+<div class="booksection">
+  <div class="waviy pt-3 text-dark fw-bolder">
+    <span style="--i:1">B</span>
+   <span style="--i:2">O</span>
+   <span style="--i:3">O</span>
+   <span style="--i:4">K</span>
+   <span style="--i:5">S</span>
+  </div>
+
+  <div class="books text-center text-dark pt-3">
+    <p>Smt.Madhuvanti Dandekar has written so many articles through FaceBook in the year 2020. The articles are fully about <b>MARATHI NATYASANGEET.</b>  It contains the meaning of every single line of various Natyapadas. In 2022, she published her first book which contains all the articles she wrote. The name of the book is <b>MADHUGANDHA NATYAGEETANCHA</b>. The moto behind writing the articles and publishing the book is to bow the seeds of <b>Marathi Music Dramas and Natyapadas</b> in the young generation to make their music-learning journey more efficient through the correct use of words while singing.</p>
+    <p>If you want to know more, then you must read this book.</p>
+
+
+
+
+
+<div class="row">
+    <div class="mt-5 container col-md-6 align-self-center">
+      <img src="./Images/Illustrations/Book 1.jpg" width="180" class="img-fluid" data-aos="flip-left"
+      data-aos-easing="linear" data-aos-duration="1500">
+    </div>
+
+    <div class="mt-5 container col-md-6 align-self-center">
+      <img src="./Images/Illustrations/book opening.jpg" width="85%" class="img-fluid" data-aos="flip-right"
+      data-aos-easing="linear" data-aos-duration="1500">
+    </div>
+</div>
+
+
+
+
+
+    <p class="pt-5">Moreover, she has translated and published 2 different books based on the Hindi devotional speeches of spiritual master Late Vimalaji Thakar. The translation of these speeches is in the Marathi Language. The name of the books are <b>SATYACHI UPALABDHI</b> and <b>SANJIVAK SHAKTICHE VAHAK BANAVE</b>.</p>
+
+    <div class="row devotionalbooks mt-4">
+
+      <div class="col-6">
+      <div class="container">
+        <img src="./Images/Illustrations/boook1.jpg" height="130px" width="100px" data-aos="flip-left" data-aos-duration="3000"> 
+      </div>
+    </div>
+
+
+    <div class="col-6">
+      <div class="container"><img src="./Images/Illustrations/boook2.jpg" height="130px" width="100px" data-aos="flip-left" data-aos-duration="3000">
+      </div>
+    </div>
+    <p class="pt-4">Marathi Translations of the books of Late. Vimalaji Thakar.</p>
+
+    <div class="col-6 mt-5">
+      <div class="container">
+        <img src="./Images/Illustrations/jeevanmantra.jpg" height="130px" width="100px" data-aos="flip-left" data-aos-duration="3000">
+        <p class="bteaxt" data-aos="zoom-in" data-aos-duration="3000">Preface written by Madhuvanti Dandekar</p>
+        
+      </div>
+    </div>
+
+
+    <div class="col-6 mt-5">
+      <div class="container">
+        <img src="./Images/Illustrations/anadi yatra.jpg" height="130px" width="100px" data-aos="flip-left" data-aos-duration="3000">
+        <p class="bteaxt" data-aos="zoom-in" data-aos-duration="3000">Preface written by Madhuvanti Dandekar</p>
+        
+      </div>
+    </div>
+
+
+    <div class="col-6 mt-3">
+      <div class="container">
+        <img src="./Images/Illustrations/jivanyog.jpg" height="130px" width="100px" data-aos="flip-left" data-aos-duration="3000">
+        
+      </div>
+    </div>
+
+    </div>
+
+   
+    
+
+    <p class="pt-5">She has written various articles from popular newspapers like Ma.Ta. Loksatta, Sakal, Pudhari. Some names of the articles are Vidyadhar Gokhale, Jyotsna Bhole, Manik Varma, Ram Marathe, Chota Gandharva, Kusum Apte, Swami Vivekananda, Yogi Shri Arvind, Jeevanyogini Vimalaji Thakar. <br> She wrote an article <b>Namana Natawara</b> in Kesari newspaper. The article contains brief information about Sangeet Natak writers, Music Directors, Artists of Sangeet Natak and Musicians as well.</p>
+
+    <p>She has given Music lectures of BA, MA (Music) at LalitKala Centre (SPPU). She got appointment from S.N.D.T college, Pune for the <b>Referee</b> of Natyasangeet PHD Department.</p><br>
+
+  </div>
+
+  
+
+</div>
+
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script src="Javascript.js"></script>
+</body>
+</html>

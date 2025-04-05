@@ -1,0 +1,170 @@
+.nav
+{
+    height: 100px;
+    background-color: black;
+    position:sticky ;
+    top:0;
+    z-index: 100;
+}
+.subnav
+{
+    width:95%;
+    margin: 0 auto;
+    /* border: 1px solid white; */
+}
+.logo
+{
+    height: 80px;
+    width: 80px;
+    background-image: url(./Images/Illustrations/logo-white.png);
+    background-size: 100% 100%;
+    /* padding-top: 5px; */
+    /* margin: 0 auto; */
+    /* border: 4px solid green; */
+}
+.menu
+{
+    /* border: 1px solid white; */
+    text-align: right; 
+    margin: 0 auto;
+}
+
+.list
+{
+    font-size: medium;
+    font-family: serif;
+}
+.anchor
+{
+    
+    text-decoration: none;
+    /* font-weight: 20px; */
+}
+
+.anchor:hover{
+    border-bottom: 1px solid black;
+}
+.tanpura
+{
+    background-color: black;
+    padding-top: 10px;
+    font-size: 16px;
+    /* background-image: url(./Images/Illustrations/tanbora); */
+    /* background-size: 100% 100%; */
+    /* background-color: black; */
+}
+.homeimage
+{
+    height: 110px;
+    width:50%;
+    margin:0 auto;
+    border: 1px solid black;
+    /* float:right; */
+    /* padding-right: 10px; */
+    /* margin-right: 10px; */
+    background-image: url(./Images/Illustrations/frontfinalcropped.jpg);
+    background-size: 100% 100%;
+    border-radius: 15%;
+    border: 1px solid white;
+}
+
+
+  .typewriter{
+    /* border: 1px solid black; */
+    text-align: center;
+    color: black;
+    font-family: serif;
+  }
+  .text
+  {
+    padding-top: 15px;
+    width:90%;
+    margin: 0 auto;
+  }
+  .heading
+  {
+    width:90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .name{
+    
+    font-family: serif;
+  }
+  .name1
+  {
+   
+    font-family: serif;
+  }
+  .b1
+  {
+    font-size: 5px;
+    border: 1px solid black;
+    /* width: 40px; */
+    /* text-align: center; */
+  }
+  .welcome
+  {
+    font-family: serif;
+  }
+  .ml6 {
+    position: relative;
+    font-weight: 900;
+    font-size: 3.3em;
+  }
+  
+  .ml6 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+  }
+  
+  .ml6 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+
+  .mainaward
+  {
+    margin: 0 auto;
+    font-family: serif;
+    font-size: 20px;
+    text-align: center;
+    background-color: pink;
+    
+  }
+
+.interviewsection
+{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.awardlist
+{
+  font-size: 15px;
+}
+
+.albums
+{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.spacing
+{
+  line-height:1.7;
+}
+
+.typewriter{
+  font-size: 15px;
+}
+
+.mainbody1
+  {
+    font-family: serif;
+  }
+  
